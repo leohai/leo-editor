@@ -1,0 +1,50 @@
+{
+  "name": "leoeditor",
+  "version": "1.0.0",
+  "description": "用webpack和typescript实现一个简单的富文本编辑器",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --config config/webpack.dev.js",
+    "build": "webpack  --config config/webpack.prd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leohai/leoeditor.git"
+  },
+  "keywords": [
+    "editor"
+  ],
+  "author": "leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leohai/leoeditor/issues"
+  },
+  "homepage": "https://github.com/leohai/leoeditor#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/runtime-corejs3": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "^3.10.0",
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.4.0",
+    "postcss": "^8.2.9",
+    "postcss-loader": "^5.2.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.3",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
