@@ -1,8 +1,9 @@
 {
   "name": "leoeditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "用webpack和typescript实现一个简单的富文本编辑器",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --config config/webpack.dev.js",
@@ -10,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leohai/leoeditor.git"
+    "url": "git+https://github.com/leohai/leo-editor.git"
   },
   "keywords": [
     "editor"
@@ -18,10 +19,12 @@
   "author": "leo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leohai/leoeditor/issues"
+    "url": "https://github.com/leohai/leo-editor/issues"
   },
-  "homepage": "https://github.com/leohai/leoeditor#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/leohai/leo-editor#readme",
+  "dependencies": {
+    "leoeditor": "^1.0.6"
+  },
   "devDependencies": {
     "@babel/core": "^7.13.14",
     "@babel/plugin-transform-runtime": "^7.13.10",

@@ -19,7 +19,8 @@ yarn add leoeditor
 最简单的使用:初始化挂载到一个` html` 标签上
 
 ```
-import L from 'leoeditor'
+import L from "leoeditor";
+import "leoeditor/dist/main.css";
 const editor = new L("#app");
 editor.create();
 ```
