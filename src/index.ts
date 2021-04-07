@@ -1,4 +1,7 @@
-/* import L from "./components/EditContainer";
-const editor = new L("#app");
-editor.create(); */
-export { default as L } from "./components/EditContainer";
+
+// import L from "./components/EditContainer";
+// export default L
+import L from 'leoeditor';
+const editor = new L("#app")
+console.log(editor)
+editor.create()
